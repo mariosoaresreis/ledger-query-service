@@ -26,8 +26,8 @@ public class SwaggerConfig {
                                 .url("https://github.com/mariosoaresreis/ledger")))
                 .servers(List.of(
                         new Server()
-                                .url("http://QUERY_EXTERNAL_IP")
-                                .description("GKE Query DEV (us-east1) — replace with actual IP after deploy"),
+                                .url("http://34.149.68.46/swagger-ui/swagger-ui/index.html#/")
+                                .description("GKE Query DEV (us-east1)"),
                         new Server()
                                 .url("http://localhost:8081")
                                 .description("Local Development")));
